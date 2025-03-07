@@ -177,7 +177,7 @@ for d in os.listdir('home-security'):
                     try:
                         search_categories = open(f'home-security/{d}/{c}/{b}', "r", encoding="utf8").read()
                         
-                        op= search_categories.replace("﻿", '').replace('https://ameriguard.biz/', 'https://ameriguard.netlify.app/').replace('http://ameriguard.biz/', 'https://ameriguard.netlify.app/').replace('(206) 803-2313', '(888) 498-9391').replace('tel:2068032313', 'tel:8884989391')
+                        op= search_categories.replace("﻿", '').replace('https://ameriguard.biz/', 'https://ameriguard.netlify.app/').replace('https://ameriguard.netlify.app/home-security-systems/', 'https://ameriguard.netlify.app/home-security/').replace('http://ameriguard.biz/', 'https://ameriguard.netlify.app/').replace('(206) 803-2313', '(888) 498-9391').replace('tel:2068032313', 'tel:8884989391').replace('bedcandfunnel','bedc&funnel')
          
                         
                         fp = open(f'home-security/{d}/{c}/{b}', "w", encoding='utf-8-sig')
@@ -193,7 +193,7 @@ for d in os.listdir('home-security'):
 for d in os.listdir('home-security'):
     try:
         search_categories = open(f'home-security/{d}/index.html', "r", encoding="utf8").read()
-        op= search_categories.replace("﻿", '').replace('https://ameriguard.biz/', 'https://ameriguard.netlify.app/').replace('http://ameriguard.biz/', 'https://ameriguard.netlify.app/').replace('(206) 803-2313', '(888) 498-9391').replace('tel:2068032313', 'tel:8884989391')
+        op= search_categories.replace("﻿", '').replace('https://ameriguard.biz/', 'https://ameriguard.netlify.app/').replace('https://ameriguard.netlify.app/home-security-systems/', 'https://ameriguard.netlify.app/home-security/').replace('http://ameriguard.biz/', 'https://ameriguard.netlify.app/').replace('(206) 803-2313', '(888) 498-9391').replace('tel:2068032313', 'tel:8884989391').replace('bedcandfunnel','bedc&funnel')
         # if 'home-security' in str(d):
         #     shutil.rmtree(f'home-security/{d}')
             
@@ -216,7 +216,7 @@ for d in os.listdir('home-security'):
 try:
     search_categories = open(f'home-security/index.html', "r", encoding="utf8").read()
     
-    op= search_categories.replace("﻿", '').replace('https://ameriguard.biz/', 'https://ameriguard.netlify.app/').replace('http://ameriguard.biz/', 'https://ameriguard.netlify.app/').replace('(206) 803-2313', '(888) 498-9391').replace('tel:2068032313', 'tel:8884989391')
+    op= search_categories.replace("﻿", '').replace('https://ameriguard.biz/', 'https://ameriguard.netlify.app/').replace('https://ameriguard.netlify.app/home-security-systems/', 'https://ameriguard.netlify.app/home-security/').replace('http://ameriguard.biz/', 'https://ameriguard.netlify.app/').replace('(206) 803-2313', '(888) 498-9391').replace('tel:2068032313', 'tel:8884989391').replace('bedcandfunnel','bedc&funnel')
     
     fp = open(f'home-security/index.html', "w", encoding='utf-8-sig')
     fp.writelines(op)
@@ -227,7 +227,7 @@ except:
 try:
     search_categories = open(f'index.html', "r", encoding="utf8").read()
     
-    op= search_categories.replace("﻿", '').replace('https://ameriguard.biz/', 'https://ameriguard.netlify.app/').replace('http://ameriguard.biz/', 'https://ameriguard.netlify.app/').replace('(206) 803-2313', '(888) 498-9391').replace('tel:2068032313', 'tel:8884989391')
+    op= search_categories.replace("﻿", '').replace('https://ameriguard.biz/', 'https://ameriguard.netlify.app/').replace('https://ameriguard.netlify.app/home-security-systems/', 'https://ameriguard.netlify.app/home-security/').replace('http://ameriguard.biz/', 'https://ameriguard.netlify.app/').replace('(206) 803-2313', '(888) 498-9391').replace('tel:2068032313', 'tel:8884989391').replace('bedcandfunnel','bedc&funnel')
     
     fp = open(f'home-security/index.html', "w", encoding='utf-8-sig')
     fp.writelines(op)
